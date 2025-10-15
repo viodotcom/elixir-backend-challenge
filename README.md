@@ -25,7 +25,7 @@ ip_address,country_code,country,city,latitude,longitude,mystery_value
 2. **Develop a REST API** that uses the library to expose the geolocation data, with at least one endpoint: `GET /api/geolocation/<ip_address>` to return location details.
 3. **Testing**: Include unit and/or integration tests covering at least 80% of the code, with a coverage report.
 4. **Error Handling and Logging**: Implement graceful error handling for import failures, invalid API requests, and deployment issues. Include basic logging for import statistics and API requests.
-5. **Deployment**: Deploy the project on a cloud platform of your choice (e.g., Heroku, Fly.io, Digital Ocean, AWS, Google Cloud, Azure). Import all the data or part of it according to the cloud platform quota limits.
+5. **Deployment**: Deploy the project on a cloud platform of your choice (e.g., Heroku, Fly.io, Digital Ocean, AWS, Google Cloud, Azure). Import all the data or a portion of it, according to the cloud platform's quota limits.
 6. **Documentation:** Provide a README file to document the project and your choices.
 
 ### Notes
@@ -34,7 +34,7 @@ ip_address,country_code,country,city,latitude,longitude,mystery_value
 - **Tech Stack Choice**: Any of Ruby, Elixir, Python, or Golang is permitted. Frameworks are allowed.
 - **Data**: The CSV contents are fake; no need to verify real-world data accuracy.
 - **Local Development**: Use a database container (e.g., PostgreSQL, MySQL) in Docker for local testing.
-- **AI Usage**: If AI tools are used, disclose their role transparently in the [`README.md`](http://README.md) for the project.
+- **AI Usage**: If AI tools are used, disclose their role transparently in the `README.md` for the project.
 
 ### Sharing the solution
 
